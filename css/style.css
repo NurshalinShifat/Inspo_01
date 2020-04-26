@@ -1,0 +1,488 @@
+/*Global Css*/
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.67%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+ 
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.67%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.67%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.col-11 {
+    width: 91.57%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+/*Header Section CSS*/
+
+header {
+    background: url(../images/banner-bg.png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+header .navbar {
+    margin-top: 20px;
+}
+
+header .navbar .logo {
+    width: 7%;
+    float: left;
+}
+
+header .navbar .menu {
+    float: left;
+    width: 93%;
+}
+
+header .navbar .menu ul {
+    padding-left: 0;
+    margin-top: 7px;
+    float: right;
+}
+
+header .navbar .menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .navbar .menu ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+header .navbar ul li:last-child a {
+    border-bottom: none;
+}
+
+header .navbar .menu ul li a:hover {
+    border-bottom: 2px solid #fff;
+} 
+
+header .navbar ul li:last-child a:hover {
+    border-bottom: none;
+}   
+     
+header .navbar .menu .btn-login {
+    color: #232323;
+    background: #fff;
+    border-radius: 20px;
+}
+
+header .navbar .menu .btn-login:hover {
+    color: #4856f3;
+    transition: 0.2s linear;
+}
+
+header .hero-area {
+    text-align: center;
+    margin-top: 120px;
+}
+
+header .hero-area h1 {
+    color: #fff;
+    font-size: 50px;
+    padding: 0 20%;
+    margin-bottom: 20px;
+}
+
+header .hero-area p {
+    color: #fff;
+    padding: 0 23%;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+header .hero-area .btn-cta {
+    text-decoration: none;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #171717;
+    display: inline-block;
+}
+
+header .hero-area .btn-cta:hover {
+    color: #4856f3;
+    transition: 0.2s linear;
+}
+
+
+/*About us Section CSS*/
+
+
+.about-us .content {
+    padding: 10%;
+    display: block;
+}
+
+.about-us .content h6 {
+    color: #9f9f9f;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.about-us .content h2 {
+    font-size: 40px;
+    text-align: right;
+    padding-left: 35%;
+    margin-bottom: 50px;
+}
+
+.about-us .inner-content {
+    float: left;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.about-us .solution {
+    margin-bottom: 40px;
+}
+
+.about-us .content h4 {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.about-us .content p {
+    padding-left: 25%;
+    text-align: right;
+    line-height: 1.7;
+}   
+
+.about-us .content img {
+    float: right;
+}
+
+.about-us .about-img {
+    background: url(../images/about-bg.png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*What we Do Section CSS*/
+
+.what-we-do {
+  height: 400px;
+  background: #faf8f5;
+  padding: 100px 0px;
+}
+
+.what-we-do ul li {
+  list-style: none;
+  background:#ffffff;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #9f9f9f;
+  border-radius: 3px;
+}
+
+.what-we-do ul li span {
+    padding: 0 20px;
+    float: left;
+}
+
+.what-we-do ul li:hover p {
+  color: #294af1;
+}
+
+.what-we-do ul li:hover span {
+    color: #fc6221;
+}
+
+.what-we-do .engeneer h6 {
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.what-we-do .engeneer h2 {
+    font-size: 42px;
+    color: #171717;
+    margin-bottom: 30px;
+}
+
+.what-we-do .engeneer p {
+    color: #505457;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/*Service Section CSS*/
+
+
+.service {
+    background: #fff;
+    padding-top: 7%;
+}
+
+.service h2 {
+    text-align: center;
+    font-size: 42px;
+    padding: 0 35%;
+    margin-bottom: 35px;
+}
+
+.service h6 {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    color: #9f9f9f;
+    margin-bottom: 60px;
+}
+
+.service .service-box {
+    padding-left: 80px;
+    padding-bottom: 80px;
+}
+
+.service .service-box h5 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.service .service-box p {
+    color: #505457;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/*Get Started Section CSS*/
+
+.get-started {
+    background: url(../images/get-started-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding-top: 6%;
+}
+
+.get-started .hero-area {
+    text-align: center;
+    color: #fff;
+}
+
+.get-started .hero-area h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.get-started .hero-area p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.get-started .hero-area a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.get-started .hero-area .btn-cta {
+    text-decoration: none;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #171717;
+    display: inline-block;
+}
+
+.get-started .hero-area .btn-cta:hover {
+    color: #4856f3;
+    transition: 0.2s linear;
+}
+
+
+/*Client Section Start*/
+
+.client {
+    padding: 5% 0 ;
+}
+
+.client .client-box-left {
+    padding: 0 5%;
+    display: inline-block;
+}
+
+.client .client-box-left img {
+    margin-bottom: 20px;
+}
+
+.client .client-box-right {
+    padding: 0 5%;
+    display: inline-block;
+}
+
+.client .client-box-right img {
+    margin-bottom: 15px;
+}
+
+.client .about-client {
+    padding: 5% 0;
+}
+
+.client .about-client h6 {
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.client .about-client h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.client .about-client p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #505457;
+}
+
+
+/*Footer Section CSS*/
+
+.footer {
+    background: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+    padding: 8% 0;
+}
+
+.footer .contact {
+    margin-top: 60px;
+    padding-left: 50px;
+    
+}
+
+.footer .contact img {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.footer .contact p {
+    color: #fefefe;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 25px;
+}
+
+.footer .contact-link {
+    padding-top: 60px;
+}
+
+.footer .contact-link h6 {
+    color: #fefeff;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.footer .contact-link ul {
+    list-style: none;
+}
+
+.footer .contact-link ul li {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.footer .contact-link ul li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+
+
+
